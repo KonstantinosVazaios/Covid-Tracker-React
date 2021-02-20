@@ -11,14 +11,14 @@ const Statistics = ({data}) => {
                 ?  data.greeceData.map((statistic, i) => {
                         return <Statistic key={i} data={statistic} />
                     })
-                :  'Loading'
+                :  'Loading...'
                 }
                 {
                 data
                 ?  data.globalData.map((statistic, i) => {
                         return <Statistic key={i} data={statistic} />
                     })
-                : 'Loading'
+                : ''
                 }                                  
             </div>
         </div>
