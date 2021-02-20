@@ -7,7 +7,7 @@ const Intro = () => {
             <p className="lead">Covid-19 Stats | Worldwide</p>
             <p>Daily updates</p>
             <p className="lead">
-                <a className="btn btn-primary btn-lg" href="#" role="button">What is Covid-19?</a>
+            <Link to="/about"><span className="btn btn-primary btn-lg" role="button">What is Covid-19?</span></Link>
             </p>
         </div>
     )
